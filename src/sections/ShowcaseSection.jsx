@@ -20,7 +20,16 @@ const ShowcaseSection = () => {
                     {/* Right */}
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project">
-                            <div><img src="/images/project2.png" alt="library management platform" /></div>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                <img src="/images/project2.png" alt="library management platform" />
+                            </div>
+                            <h2>Libary ManagementPlatform</h2>
+                        </div>
+                        <div className="project">
+                            <div className='image-wrapper bg-[#ffe7eb]'>
+                                <img src="/images/project3.png" alt="YC directory" />
+                            </div>
+                            <h2>YC directory-  A start Up showcase</h2>
                         </div>
                     </div>
                 </div>
