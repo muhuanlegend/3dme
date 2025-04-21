@@ -29,9 +29,9 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 3, suffix: "+", label: "Years of Experience" },
+    { value: 20, suffix: "+", label: "Satisfied Clients" },
+    { value: 19, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
   ];
   
@@ -119,12 +119,12 @@ const navLinks = [
       scale: 1,
       rotation: [0, 0, 0],
     },
-    {
-      name: "Python Developer",
-      modelPath: "/models/python-transformed.glb",
-      scale: 0.8,
-      rotation: [0, 0, 0],
-    },
+    // {
+    //   name: "Python Developer",
+    //   modelPath: "/models/python-transformed.glb",
+    //   scale: 0.8,
+    //   rotation: [0, 0, 0],
+    // },
     {
       name: "Backend Developer",
       modelPath: "/models/node-transformed.glb",
@@ -143,6 +143,12 @@ const navLinks = [
       scale: 0.05,
       rotation: [0, -Math.PI / 4, 0],
     },
+    {
+      name: "React Developer",
+      modelPath: "/models/react_logo-transformed.glb",
+      scale: 1,
+      rotation: [0, 0, 0],
+    },
   ];
   
   const expCards = [
@@ -153,31 +159,31 @@ const navLinks = [
       title: "Frontend Developer",
       date: "January 2023 - Present",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
+        "Developed and maintained user-facing features for  Hostinger websites.",
         "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
         "Optimized web applications for maximum speed and scalability.",
       ],
     },
     {
-      review: "Muhuan’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      review: "Muhuan’s contributions to the social media web application have been outstanding. He approaches challenges with a problem-solving mindset.",
       imgPath: "/images/exp2.png",
       logoPath: "/images/logo2.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      title: "UI/UX designer",
+      date: "June 2020 - Present",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "Designed intuitive and user-centric interfaces to enhance user experience across web platforms.",
+        "Collaborated with product managers and developers to translate user needs into wireframes, prototypes, and final designs.",
+        "Conducted user research and usability testing to guide design decisions and improve product accessibility."
       ],
     },
     {
-      review: "Muhuan’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      review: "Muhuan’s work on Trendi’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
       imgPath: "/images/exp3.png",
       logoPath: "/images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
+      title: "Next Js Developer",
+      date: "March 2023 - Present",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+        "Built cross-platform mobile apps using React, integrating with Appwrite's backend services.",
         "Improved app performance and user experience through code optimization and testing.",
         "Coordinated with the product team to implement features based on feedback.",
       ],
@@ -201,8 +207,8 @@ const navLinks = [
   
   const testimonials = [
     {
-      name: "Esther Howard",
-      mentions: "@estherhoward",
+      name: "Hope Mahirwe",
+      mentions: "@estherhope",
       review:
         "I can’t say enough good things about Muhuan. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
       imgPath: "/images/client1.png",
@@ -215,14 +221,14 @@ const navLinks = [
       imgPath: "/images/client3.png",
     },
     {
-      name: "Guy Hawkins",
-      mentions: "@guyhawkins",
+      name: "Telishell",
+      mentions: "@telbruce",
       review:
         "Collaborating with Muhuan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Muhuan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Muhuan is the ideal partner.",
       imgPath: "/images/client2.png",
     },
     {
-      name: "Marvin McKinney",
+      name: "Marvin Manet",
       mentions: "@marvinmckinney",
       review:
         "Muhuan was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
